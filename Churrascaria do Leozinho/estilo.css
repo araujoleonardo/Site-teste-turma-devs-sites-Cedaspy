@@ -1,0 +1,45 @@
+body {
+	background-color: gray;
+	background: url(Imagens/BG.png);
+	width: 100%;
+	background-repeat: no-repeat;
+	color: #FFF;
+}
+
+#topo {
+	background-color: #8B1A1A;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	border-right: 1px solid white;
+}
+
+li a {
+	display: block;
+	padding: 12px 35px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #FF4040;
+	color: #00BFFF;
+}
+
+.active {
+	background-color: #FF3030;
+}
+
+p {
+	color: white;
+}
